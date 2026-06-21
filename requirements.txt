@@ -1,2 +1,7 @@
+# Core dependencies (required)
 rich>=13.0.0
 ping3>=4.0.3
+
+# Optional (enhanced features)
+requests>=2.31.0    # ISP detection, speed test
+psutil>=5.9.0       # Network monitor throughput

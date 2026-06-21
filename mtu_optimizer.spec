@@ -1,12 +1,26 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-
 a = Analysis(
     ['mtu_optimizer.py'],
     pathex=[],
     binaries=[],
     datas=[],
-    hiddenimports=[],
+    hiddenimports=[
+        'mtu_optimizer',
+        'mtu_optimizer.core',
+        'mtu_optimizer.dns',
+        'mtu_optimizer.tweaks',
+        'mtu_optimizer.servers',
+        'mtu_optimizer.system',
+        'mtu_optimizer.scoring',
+        'mtu_optimizer.profiles',
+        'mtu_optimizer.backup',
+        'mtu_optimizer.speedtest',
+        'mtu_optimizer.monitor',
+        'mtu_optimizer.export',
+        'mtu_optimizer.ui',
+        'mtu_optimizer.menu',
+    ],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
